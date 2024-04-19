@@ -8,6 +8,13 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
+
 export class AppComponent {
   title = 'contact-form';
+}
+
+export class ContactFormComponent {
+  log(x) {
+    console.log(x);
+  }
 }
